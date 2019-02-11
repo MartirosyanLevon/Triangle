@@ -17,12 +17,11 @@ namespace LoopTriangle
             Console.Write("Write your second digit");
             Console.Write(" Width = ");
             int z = Convert.ToInt32(Console.ReadLine());
-            int y = 0;
 
 
             for (int i = 0; i < x ; i++)
             {
-                for (int r = 0; r < (y = z); r++)
+                for (int r = 0; r < z; r++)
                 {
                     Console.Write(" ");
                 }
